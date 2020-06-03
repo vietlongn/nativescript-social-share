@@ -1,6 +1,6 @@
 {
     "name": "nativescript-url-share",
-    "version": "1.6.2",
+    "version": "1.6.3",
     "description": "A NativeScript module to use the native url sharing widget",
     "main": "url-share",
     "typings": "index.d.ts",
