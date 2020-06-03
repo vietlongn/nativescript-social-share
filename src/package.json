@@ -1,13 +1,13 @@
 {
     "name": "nativescript-url-share",
-    "version": "1.6.0",
-    "description": "A NativeScript module to use the native social sharing widget",
-    "main": "social-share",
+    "version": "1.6.1",
+    "description": "A NativeScript module to use the native url sharing widget",
+    "main": "url-share",
     "typings": "index.d.ts",
     "nativescript": {
         "platforms": {
-            "android": "4.0.0",
-            "ios": "4.0.0"
+            "android": "6.5.0",
+            "ios": "6.5.0"
         }
     },
     "scripts": {
@@ -34,21 +34,26 @@
         "iOS"
     ],
     "author": {
-        "name": "TJ VanToll",
-        "email": "tj.vantoll@gmail.com"
+        "name": "Long NguyễnNguyễn",
+        "email": "vietlongn.dev@gmail.com"
     },
     "contributors": [
         {
             "name": "Eddy Verbruggen",
             "email": "eddyverbruggen@gmail.com",
             "url": "https://github.com/EddyVerbruggen"
+        },
+        {
+            "name": "Long NguyễnNguyễn",
+            "email": "vietlongn.devdev@gmail.com",
+            "url": "https://github.com/vietlongn"
         }
     ],
     "bugs": {
-        "url": "https://github.com/tjvantoll/nativescript-social-share/issues"
+        "url": "https://github.com/vietlongn/nativescript-social-share/issues"
     },
     "license": "MIT",
-    "homepage": "https://github.com/tjvantoll/nativescript-social-share",
+    "homepage": "https://github.com/vietlongn/nativescript-social-share",
     "readmeFilename": "README.md",
     "devDependencies": {
         "tns-core-modules": "~6.3.0",
