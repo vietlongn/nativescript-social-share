@@ -25,10 +25,10 @@ To use the social share module you must first `require()` it. After you `require
 
 ``` JavaScript
 // ------------ JavaScript ------------------
-var SocialShare = require("nativescript-url-share");
+var UrlShare = require("nativescript-url-share");
 
 // ------------- TypeScript ------------------
-import * as SocialShare from "nativescript-url-share";
+import * as UrlShare from "nativescript-url-share";
 ```
 
 ## API
@@ -39,13 +39,13 @@ import * as SocialShare from "nativescript-url-share";
 The `shareUrl()` method excepts a url and a string.
 
 ``` js
-SocialShare.shareUrl("https://www.nativescript.org/", "Home of NativeScript");
+UrlShare.shareUrl("https://www.nativescript.org/", "Home of NativeScript");
 ```
 
 You can optionally pass `shareUrl()` a second argument to configure the subject on Android:
 
 ``` js
-SocialShare.shareUrl("https://www.nativescript.org/", "Home of NativeScript", "How would you like to share this url?");
+UrlShare.shareUrl("https://www.nativescript.org/", "Home of NativeScript", "How would you like to share this url?");
 ```
 
 ## Tutorials

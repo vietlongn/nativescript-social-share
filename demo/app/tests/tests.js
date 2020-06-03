@@ -1,12 +1,12 @@
-var SocialShare = require("nativescript-url-share").SocialShare;
-var socialShare = new SocialShare();
+var UrlShare = require("nativescript-url-share").UrlShare;
+var urlShare = new UrlShare();
 
 describe("greet function", function() {
     it("exists", function() {
-        expect(socialShare.greet).toBeDefined();
+        expect(urlShare.greet).toBeDefined();
     });
 
     it("returns a string", function() {
-        expect(socialShare.greet()).toEqual("Hello, NS");
+        expect(urlShare.greet()).toEqual("Hello, NS");
     });
 });

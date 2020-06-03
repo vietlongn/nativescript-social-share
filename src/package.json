@@ -1,13 +1,13 @@
 {
     "name": "nativescript-url-share",
-    "version": "1.6.1",
+    "version": "1.6.2",
     "description": "A NativeScript module to use the native url sharing widget",
     "main": "url-share",
     "typings": "index.d.ts",
     "nativescript": {
         "platforms": {
-            "android": "6.5.0",
-            "ios": "6.5.0"
+            "android": "6.3.0",
+            "ios": "6.3.0"
         }
     },
     "scripts": {
@@ -34,7 +34,7 @@
         "iOS"
     ],
     "author": {
-        "name": "Long NguyễnNguyễn",
+        "name": "Long Nguyễn",
         "email": "vietlongn.dev@gmail.com"
     },
     "contributors": [
@@ -44,7 +44,7 @@
             "url": "https://github.com/EddyVerbruggen"
         },
         {
-            "name": "Long NguyễnNguyễn",
+            "name": "Long Nguyễn",
             "email": "vietlongn.devdev@gmail.com",
             "url": "https://github.com/vietlongn"
         }
