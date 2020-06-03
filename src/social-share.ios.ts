@@ -24,14 +24,6 @@ function share(thingsToShare) {
     .presentViewControllerAnimatedCompletion(activityController, true, null);
 }
 
-export function shareImage(image) {
-  share([image]);
-}
-
-export function shareText(text) {
-  share([text]);
-}
-
 export function shareUrl(url, text) {
   share([NSURL.URLWithString(url), text]);
 }
