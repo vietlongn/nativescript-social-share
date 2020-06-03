@@ -1,4 +1,4 @@
-var SocialShare = require("nativescript-social-share").SocialShare;
+var SocialShare = require("nativescript-url-share").SocialShare;
 var socialShare = new SocialShare();
 
 describe("greet function", function() {

@@ -1,4 +1,4 @@
-import { shareImage, shareText, shareUrl } from "nativescript-social-share";
+import { shareImage, shareText, shareUrl } from "nativescript-url-share";
 import { fromFile } from "tns-core-modules/image-source";
 
 export const doShareImage = () => {

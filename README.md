@@ -13,10 +13,10 @@ A NativeScript plugin to use the native social sharing widget on Android and iOS
 Run the following command from the root of your project:
 
 ```
-$ tns plugin add nativescript-social-share
+$ tns plugin add nativescript-url-share
 ```
 
-This command automatically installs the necessary files, as well as stores nativescript-social-share as a dependency in your project's `package.json` file.
+This command automatically installs the necessary files, as well as stores nativescript-url-share as a dependency in your project's `package.json` file.
 
 
 ## Usage
@@ -25,10 +25,10 @@ To use the social share module you must first `require()` it. After you `require
 
 ``` JavaScript
 // ------------ JavaScript ------------------
-var SocialShare = require("nativescript-social-share");
+var SocialShare = require("nativescript-url-share");
 
 // ------------- TypeScript ------------------
-import * as SocialShare from "nativescript-social-share";
+import * as SocialShare from "nativescript-url-share";
 ```
 
 ## API
